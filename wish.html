@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Make a wish!</title>
+    <meta name="keywords" content="wish.html" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>Make a wish!</h1>
+        <div id='form_wrap'>
+            <form action="send.php" method="post">
+                <p>Hello YuQing,</p>
+                <label for="email">Write your wish : </label>
+                <textarea name="message" value="Your Message" id="message"></textarea>
+                <label for="token">The secret token : </label>
+                <input type="text" name="token" id="token">
+                <p>Best,</p>
+                <p>waiting for a surprise!</p>
+             	<br/>
+                <input type="submit" name="submit" class="submit" value="Now, I send, thanks!" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
